@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 });
 
 // MongoDB code //
-// Database connect with MongoDB
+// Database connect with MongoDB //
 mongoose.connect("mongodb+srv://supportingpaws:spaws@cluster0.cccxbbn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
